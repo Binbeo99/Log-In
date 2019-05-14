@@ -1,0 +1,108 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   font-family: sans-serif;
+   background:url('nen3.jpg');
+   background-size: cover;
+}
+.box{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 325px;
+	padding: 50px;
+	background: rgb(0,0,0,.7);
+	box-sizing: border-box;
+	box-shadow: 0px 15px 25px rgb(0,0,0,.7);
+    border-radius: 20px;
+}
+.box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fffa;
+    text-align: center;
+}
+.box .inputbox{
+	position: relative;
+}
+.box .inputbox input{
+   width: 100%;
+   padding: 10px 0;
+   font-size: 14px;
+   letter-spacing: 1px;
+   color: #fff;
+   margin-bottom: 30px;
+   border: none;
+   border-bottom: 1px solid #0b397d;; 
+   outline: none;
+   background: transparent;
+
+}
+.box .inputbox label{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 10px 0;
+	letter-spacing: 1px;
+	color: #7ecedc;;
+	font-size: 16px;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label{
+    top: -18px;
+    left: 0px;
+    color: dodgerblue ;
+    font-size: 12px;
+}
+.inputaccount input[type="submit"].input1{
+     /*background: transparent;*/
+     border: none;
+     outline: none;
+     color: black;
+     background: linear-gradient(to top, #00ffff 38%, #33ccff 55%); 
+     padding: 10px 30px;
+     cursor: pointer;
+     border-radius: 15px;
+     font-size: 20px;
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     transition: 2s;
+
+}
+.inputaccount input[type="submit"].input1:hover{
+  background: linear-gradient(to left, #00ff99 38%, #99ccff 55%);
+  color: white;
+}
+.inputaccount input[type="submit"].input1:hover{
+  box-shadow: 0 10px 15px 10px rgb(255, 255, 77);
+}
+.box p{
+  font-size: 11px;
+  float: right;
+  color: #b3ffcc;
+}
+.box p a{
+  text-decoration: none;
+  color: #777;
+  
+
+}
+.box p a:hover{
+  color:  dodgerblue;
+}
+.inputaccount a{
+   text-decoration: none;
+   color: #777;
+   transition: 1s;
+}
+.inputaccount a:hover{
+  color:#00ff00;
+}
+}
+
